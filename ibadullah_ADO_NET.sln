@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ibadullah_ADO_NET 01. SqlConnection, SqlDataReader", "ibadullah_ADO_NET 01. SqlConnection, SqlDataReader\ibadullah_ADO_NET 01. SqlConnection, SqlDataReader.csproj", "{A17D06DE-FC6C-4762-8CE9-37977EB476BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO NET 01", "ADO NET 01", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO NET 02", "ADO NET 02", "{10239861-101E-4EED-9BEC-CB7BBC9EA939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO NET 03", "ADO NET 03", "{1E2C4AA3-7102-42A4-8010-152FAED11B30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO NET 04", "ADO NET 04", "{08D431E9-2E82-412C-AF91-BBB853975DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO .NET 03. LINQ to Entites", "ADO .NET 03. LINQ to Entites\ADO .NET 03. LINQ to Entites.csproj", "{9829B981-C5B3-4215-924D-6E65DC6C19A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,17 @@ Global
 		{A17D06DE-FC6C-4762-8CE9-37977EB476BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A17D06DE-FC6C-4762-8CE9-37977EB476BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A17D06DE-FC6C-4762-8CE9-37977EB476BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9829B981-C5B3-4215-924D-6E65DC6C19A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9829B981-C5B3-4215-924D-6E65DC6C19A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9829B981-C5B3-4215-924D-6E65DC6C19A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9829B981-C5B3-4215-924D-6E65DC6C19A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A17D06DE-FC6C-4762-8CE9-37977EB476BA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9829B981-C5B3-4215-924D-6E65DC6C19A6} = {1E2C4AA3-7102-42A4-8010-152FAED11B30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65C72281-F9F7-4D11-9777-CA0A6605697F}
