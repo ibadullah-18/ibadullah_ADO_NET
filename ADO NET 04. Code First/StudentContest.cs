@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ADO_NET_04._Code_First
 {
-    class StudentContest
+    class StudentContest :DbContext
     {
+        public Dbset
     }
 }
