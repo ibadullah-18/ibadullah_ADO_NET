@@ -1,5 +1,6 @@
 ﻿
 
+using ADO_.NET_07._Include;
 using Microsoft.EntityFrameworkCore;
 
 class ApplicationContext : DbContext
@@ -20,7 +21,7 @@ class ApplicationContext : DbContext
 
     {
 
-        optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=Lazyloading;Integrated Security=True;Trust Server Certificate=True;");
+        optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=Explicit;Integrated Security=True;Trust Server Certificate=True;");
 
     }
 
