@@ -43,3 +43,13 @@ IAuthorsRepository repository = new AuthorRepository(new SqlConnection(), connec
 repository.RemoveAuthorsById([4, 5, 6, 45]);
 #endregion
 
+#region Update Author
+//Author updateAuthor = new()
+//{
+//    Id = 2,
+//    FirstName = "ziay",
+//    LastName = "huseynov"
+//};
+//repository.UpdateAuthor(updateAuthor);
+
+#endregion

@@ -63,5 +63,16 @@ class AuthorRepository : IAuthorsRepository
             RemoveAuthorById(item);
         }
     }
+    public void UpdateAuthor(Author author)
+    {
+        var sqlQuery = @"UPDATE Authosr SET FirstName = @FirstName, LastName = @LastName WHERE Id = @id";
+        var id = _db.Query<int>(sqlQuery, new
+        {
+            @FirstName = author.FirstName,
+            @LastName = author.LastName,
+            @Id = author.Id
+        }).FirstOrDefault();
+
+    }
 }
 
