@@ -27,5 +27,19 @@ IAuthorsRepository repository = new AuthorRepository(new SqlConnection(), connec
 #endregion
 
 #region Remove Data by Id
-repository.RemoveAuthorById(30);
+//repository.RemoveAuthorById(3);
 #endregion
+
+#region AddAuthors 
+//repository.AddAuthors(new List<Author>
+//{
+//    new Author { FirstName = "Author1", LastName = "LastName1" },
+//    new Author { FirstName = "Author2", LastName = "LastName2" },
+//    new Author { FirstName = "Author3", LastName = "LastName3" },
+//});
+#endregion
+
+#region RemoveAuthorsById
+repository.RemoveAuthorsById([4, 5, 6, 45]);
+#endregion
+
