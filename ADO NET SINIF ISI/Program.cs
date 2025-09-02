@@ -1,7 +1,5 @@
 ﻿// Dapper ORM
 using ADO.NET_08.Dapper_ORM;
-using Dapper;
-using Microsoft.Data.SqlClient;
 
 var connectionString = @"Server=(localdb)\MSSQLLocalDB;Database=Authors;Integrated Security=True;Trust Server Certificate=True;";
 
@@ -32,16 +30,24 @@ IAuthorsRepository repository = new AuthorRepository(new SqlConnection(), connec
 #endregion
 
 #region AddAuthors 
-//repository.AddAuthors(new List<Author>
+//List<Author> author = new()
 //{
-//    new Author { FirstName = "Author1", LastName = "LastName1" },
-//    new Author { FirstName = "Author2", LastName = "LastName2" },
-//    new Author { FirstName = "Author3", LastName = "LastName3" },
-//});
+//    new Author {FirstName = "Ibadullah", LastName = "Huseynzade" },
+//    new Author {FirstName = "Sufiye", LastName = "Huseynzade" },
+//    new Author {FirstName = "Mirtalib", LastName = "Huseynzade" },
+//};
+
+//repository.AddAuthors(author);
 #endregion
 
 #region RemoveAuthorsById
-//repository.RemoveAuthorsById([4, 5, 6, 45]);
+//Author[] author = new[]
+//{
+//    new Author {Id = 14 },
+//    new Author {Id = 15 },
+//    new Author {Id = 16 },
+//};
+//repository.RemoveAuthorsById(author.Select(a => a.Id).ToArray());
 
 #endregion
 
